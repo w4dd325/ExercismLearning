@@ -5,41 +5,41 @@ code.renderMarkdown table, code.renderMarkdown th, code.renderMarkdown td {
 }
 
 .theme-dark {
-    --background-color: #222;
-    --bg-card-deck: #444444;
-    --text-color: #ccd2d8;
-    --tab-border: solid 1px #444;
-    --success: #3c9372;
-    --failure: #c24a3f;
-    --warning: #d28c23;
-    --info: #4083b6;
-    --badge-outline: #3c9372;
-    --badge-bg: #cdd3db;
-    --badge-text: #ccd2d9;
-    --failure-row: #c24a3f;
-    --warning-row: #d28c23;
-    --card-bg: #444;
-    --card-footer: #4f5758;
-    --form-input: #ececb5;
-    --hov-text: #d2dae5;
-    --h4-text: #ccd1d9;
+    background-color: #222;
+    bg-card-deck: #444444;
+    text-color: #ccd2d8;
+    tab-border: solid 1px #444;
+    success: #3c9372;
+    failure: #c24a3f;
+    warning: #d28c23;
+    info: #4083b6;
+    badge-outline: #3c9372;
+    badge-bg: #cdd3db;
+    badge-text: #ccd2d9;
+    failure-row: #c24a3f;
+    warning-row: #d28c23;
+    card-bg: #444;
+    card-footer: #4f5758;
+    form-input: #ececb5;
+    hov-text: #d2dae5;
+    h4-text: #ccd1d9;
 }
 
 .theme-light {
-    --tab-border: solid 1px #fff;
-    --text-color: #000000;
-    --success: #42a745;
-    --failure: #dc3544;
-    --warning: #f4c10b;
-    --info: #49a1b8;
-    --badge-outline: #040411;
-    --badge-bg: #f8f9fa;
-    --badge-text: #fff;
-    --failure-row: #f5c6cb;
-    --warning-row: #ffeeba;
-    --card-bg: #f7f7f7;
-    --hov-text: #fff;
-    --h4-text: #ffffff;
+    tab-border: solid 1px #fff;
+    text-color: #000000;
+    success: #42a745;
+    failure: #dc3544;
+    warning: #f4c10b;
+    info: #49a1b8;
+    badge-outline: #040411;
+    badge-bg: #f8f9fa;
+    badge-text: #fff;
+    failure-row: #f5c6cb;
+    warning-row: #ffeeba;
+    card-bg: #f7f7f7;
+    hov-text: #fff;
+    h4-text: #ffffff;
 }
 
 body {
