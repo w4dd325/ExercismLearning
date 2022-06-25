@@ -424,20 +424,3 @@ body.theme-light code {
     max-width: 600px; 
     white-space: normal;
 }
-
-</style>
-</head>
-<body class="theme-dark">
-<script>
-    function setTheme(themeName) {
-        localStorage.setItem('theme', themeName);
-        document.body.className = themeName;
-    }
-
-    function toggleTheme() {
-        if (localStorage.getItem('theme') === 'theme-light') {
-            setTheme('theme-dark');
-        } else {
-            setTheme('theme-light');
-        }
-    }
